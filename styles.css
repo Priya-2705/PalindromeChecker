@@ -10,11 +10,27 @@ body {
 
 .card {
     width: 40%;
-    height: 20%;
+    height: 30%;
     text-align: center;
     border: 2px solid #008080; /* Teal */
     background-color: #0cc9e6; /* Wheat (softer than Bisque) */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 2px 4px 10px rgba(0, 128, 128, 0.2); /* Subtle shadow */
+}
+
+input {
+    width: 50%;
+}
+
+button {
+    width: 15%;
+    height: 20%;
+    background-color: rgb(20, 226, 20);
+    border: 2px green solid;
+    border-radius: 10%;
+}
+
+#result {
+    display: none;
 }
