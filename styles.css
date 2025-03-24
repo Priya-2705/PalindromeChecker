@@ -1,0 +1,20 @@
+body {
+    width: 100%;
+    background-color: #f0f8ff; /* Light blue (AliceBlue) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+
+.card {
+    width: 40%;
+    height: 20%;
+    text-align: center;
+    border: 2px solid #008080; /* Teal */
+    background-color: #0cc9e6; /* Wheat (softer than Bisque) */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px rgba(0, 128, 128, 0.2); /* Subtle shadow */
+}
